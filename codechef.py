@@ -1,0 +1,12 @@
+s=input()
+j=len(s)-1
+i=0
+c=0
+while(i<j):
+    if(s[i]==s[j]):
+        i+=1
+        j-=1
+    else:
+        c+=1
+        i+=1
+print(c)
